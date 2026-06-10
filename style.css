@@ -1,0 +1,95 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+color:#1f2937;
+background:#f8fafc;
+}
+
+.hero{
+height:100vh;
+background:url('assets/bg.jpg') center center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.overlay{
+background:rgba(255,255,255,.92);
+padding:40px;
+border-radius:25px;
+max-width:700px;
+}
+
+.arabic{
+font-size:24px;
+margin-bottom:20px;
+}
+
+h1{
+font-family:'Playfair Display',serif;
+font-size:60px;
+color:#1e3a5f;
+}
+
+h2{
+font-family:'Playfair Display',serif;
+}
+
+.baby-photo{
+width:250px;
+height:250px;
+object-fit:cover;
+border-radius:50%;
+border:8px solid #3b82f6;
+margin:30px auto;
+display:block;
+}
+
+#countdown{
+font-size:24px;
+font-weight:600;
+margin:20px 0;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:10px;
+margin-top:15px;
+}
+
+section{
+padding:80px 20px;
+text-align:center;
+}
+
+.card{
+max-width:600px;
+margin:auto;
+padding:30px;
+background:white;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+blockquote{
+font-style:italic;
+margin:30px auto;
+max-width:700px;
+}
+
+footer{
+padding:30px;
+background:#1e3a5f;
+color:white;
+text-align:center;
+}
